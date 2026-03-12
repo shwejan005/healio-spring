@@ -12,9 +12,9 @@ We recommend deploying the backend on a Platform-as-a-Service (PaaS) like **Rend
    - Create a new "Web Service".
    - Select the repository containing your project.
    - Set the Root Directory to `backend/`.
-3. **Build & Start Commands**:
-   - Build Command: `./mvnw clean package -DskipTests`
-   - Start Command: `java -jar target/healio-0.0.1-SNAPSHOT.jar`
+3. **Environment Setup**:
+   - For **Language**, select `Docker`.
+   - Render will automatically use the `Dockerfile` located in your `backend/` root directory to build and run the application.
 4. **Environment Variables**: Add your backend environment variables from `application.properties`:
    - `GEMINI_API_KEY`
    - `CLERK_ISSUER_URL`
