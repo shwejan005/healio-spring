@@ -22,6 +22,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# H2 Database files
+data/
+*.db
+
 # IDE / OS
 .idea/
 .vscode/
